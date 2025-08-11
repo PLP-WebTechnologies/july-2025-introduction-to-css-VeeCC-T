@@ -1,0 +1,44 @@
+/* Reset default browser margins & paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General Page Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* ===== HEADER STYLING ===== */
+header {
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    text-align: center; /* Center text */
+    padding: 20px; /* Padding = space inside the box */
+}
+
+/* ===== CARD STYLING ===== */
+.card {
+    background-color: white; /* White card background */
+    border: 2px solid #ccc; /* Border = box edge */
+    padding: 20px; /* Padding = space inside card */
+    margin: 20px; /* Margin = space outside card */
+    border-radius: 8px; /* Rounded corners */
+}
+
+/* Card Headings */
+.card h2 {
+    color: #333;
+    margin-bottom: 10px; /* Space below heading */
+}
+
+/* ===== FOOTER STYLING ===== */
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+}
